@@ -1,4 +1,4 @@
-import { Vector } from "./types/vector";
+import { Vector } from "./vector.types";
 
 export function distance(vector: Vector): number {
   return Math.hypot(vector.to.x - vector.from.x, vector.to.y - vector.from.y);

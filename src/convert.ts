@@ -1,5 +1,5 @@
 import { direction, magnitude } from "./point";
-import { Point, Polar } from "./types/point";
+import { Point, Polar } from "./point.types";
 
 export function toPolar(point: Point): Polar {
   return {

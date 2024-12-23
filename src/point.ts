@@ -1,4 +1,4 @@
-import { Point } from "./types";
+import { Point } from "./point.types";
 
 
 export function magnitude(point: Point): number {

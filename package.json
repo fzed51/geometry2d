@@ -1,5 +1,6 @@
 {
-  "name": "geometry2d",
+  "name": "@fzed51/geometry2d",
+  "version": "0.0.1",
   "packageManager": "yarn@4.3.1",
   "devDependencies": {
     "typescript": "^5.7.2"

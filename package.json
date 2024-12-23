@@ -1,8 +1,16 @@
 {
   "name": "@fzed51/geometry2d",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "packageManager": "yarn@4.3.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "devDependencies": {
     "typescript": "^5.7.2"
-  }
+  },
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "files": [
+    "dist"
+  ]
 }

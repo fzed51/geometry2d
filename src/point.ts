@@ -6,7 +6,7 @@ export function magnitude(point: Point): number {
 }
 
 export function direction(point: Point): number {
-  return Math.hypot(point.x, point.y);
+  return Math.atan2(point.y, point.x);
 }
 
 export function add(point1: Point, point2: Point): Point {
